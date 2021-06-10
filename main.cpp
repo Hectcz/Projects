@@ -28,11 +28,11 @@ int main () {
     
     cout << "Hello Video Game Lovers: Hope you guys enjoy this narrative text adventure story." << endl; // Introduction to the video game.
     cout << "Enter your choice when prompted into the console."  << endl;
-	cout << endl;
-	cout << "Press Enter to Continue....";
-	cin.ignore();
+    cout << endl;
+    cout << "Press Enter to Continue....";
+    cin.ignore();
 	
-	system("clear");
+    system("clear");
 
     storyPageOne(choice);   // First story page of the story line.
     
@@ -41,7 +41,7 @@ int main () {
         invalidChoice(choice);
     }
 
-	system("clear");
+    system("clear");
 
     if (choice == 1) 
     {
@@ -492,6 +492,18 @@ void displayEnding3()
     cout << endl;
 	cout << "-----------------------------------The End---------------------------------------" << endl;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
